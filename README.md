@@ -13,7 +13,8 @@ ___
 ```objc
 -(void)removeMonthLabelForNewMonth:(NSInteger)newMonth{
     [UIView animateWithDuration: 0.5 animations:^{
-    [_monthLabel  setFrame:CGRectMake(self.bounds.size.width+_monthLabel.frame.size.width/2, _monthLabel.frame.origin.y, _monthLabel.frame.size.width, _monthLabel.frame.size.height)];
+
+        [_monthLabel  setFrame:CGRectMake(self.bounds.size.width+_monthLabel.frame.size.width/2, _monthLabel.frame.origin.y, _monthLabel.frame.size.width, _monthLabel.frame.size.height)];
 
     }completion:^(BOOL finished){
 
