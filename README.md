@@ -51,3 +51,9 @@ ___
     -(UIButton*)getbuttonForDay:(NSUInteger)day
     -(void)setEventDays:(NSArray *)eventDays
 ```
+
+**delegate methods**
+___
+```objc
+    - (void) userDidSelectEvent:(NSDate*)date;
+```
